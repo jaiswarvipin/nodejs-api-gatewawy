@@ -1,0 +1,30 @@
+{
+  "name": "socket-master",
+  "version": "1.0.0",
+  "description": "Node Socket server for Managing the Client Connections",
+  "main": "service-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node service.js",
+    "start": "node service.js"
+  },
+  "author": "Jaiswar Vipin Kumar R.",
+  "license": "ISC",
+  "dependencies": {
+    "apigateway_header_process": "^1.0.0",
+    "apigateway_request_process": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "curl-request": "^1.1.1",
+    "curlrequest": "^1.0.1",
+    "express": "^4.17.1",
+    "http": "*",
+    "mysql": "^2.18.1",
+    "opossum": "^5.0.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2",
+    "roi": "^0.18.0",
+    "url": "*",
+    "websocket": "^1.0.31",
+    "ws": "^7.2.1"
+  }
+}
